@@ -1,0 +1,147 @@
+body {
+    font-family: 'Open Sans', Arial, Tahoma;
+    font-weight: 400;
+    color: #363636;
+    background: #334960;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    margin-top: 80px;
+    margin-bottom: 15px;
+    background: #fff;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+	.container {
+       width: 1170px;
+   }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 768px){
+    .container {
+        width: 750px;
+    }
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 5px;
+    background: #334960;
+    margin-top: -75px;
+}
+
+.image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cv-container {
+    margin-top: 30px;
+    display: flex;
+}
+
+.col-left {
+    /*background-color: red;*/
+    width: 100%;
+}
+
+.col-separator {
+    width: 30px;
+}
+
+.col-right {
+    /*background-color: blue;*/
+    width: 100%;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h1 {
+    color: rgb(54,54,54);
+    margin-bottom: 0;
+}
+
+h2 {
+    color: rgb(122,153,184);
+    margin-top: 0;
+}
+
+.image-header:after {
+    width: 100%;
+    height: 3px;
+    border-bottom: 1px solid #ddd;
+    margin-top: 15px;
+    content: '';
+    display: block;
+}
+
+.row2:after {
+    width: 100%;
+    height: 3px;
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    content: '';
+    display: block;
+}
+
+h3 {
+    font-weight: 800;
+    color: rgb(34,124,116);
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+h5 {
+    font-weight: 500;
+    color: rgb(156,156,156);
+    margin-top: 0;
+}
+
+.desc {
+    margin-top: -20px;
+}
+
+.greyed {
+    background-color: rgb(230,230,230);
+}
+
+.grade {
+    font-weight: bold;
+}
