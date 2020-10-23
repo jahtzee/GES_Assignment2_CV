@@ -16,6 +16,7 @@ html {
   --color-greenblue: rgb(34,124,116);
   --color-darkblue: #334960;
   --color-textgrey: rgb(54,54,54);
+  --color-nav-border: hsl(212, 15%, 30%);
   --color-gradient: linear-gradient(var(--color-greenblue), var(--color-lightblue));
   scroll-behavior: smooth;
 }
@@ -35,14 +36,8 @@ a {
   justify-content: flex-end;
   background-color: var(--color-gunmetal-grey2);
   z-index: 13;
-  /*border-bottom: solid;
-  border-color: var(--color-nav-border);*/
-}
-
-@media (max-width: 1000px){
-  #navbar{
-    justify-content: center;
-  }
+  border-bottom: solid;
+  border-color: var(--color-nav-border);
 }
 
 #nav-list {
@@ -200,12 +195,37 @@ a {
   transition: transform 0.3s ease-out;
 }
 
+#contact-list li:hover{
+  transform: translateY(8px);
+}
+
 @media (max-width: 1000px){
   #contact-list li{
     padding-top: 5%;
   }
 }
 
-#contact-list li:hover{
-  transform: translateY(8px);
+@media (max-width: 1000px){
+  #navbar{
+    justify-content: center;
+  }
 }
+
+@media (max-width: 500px) {
+  #nav-list li a i {
+    display: none;
+  }
+
+  #nav-list {
+  margin-right: 0%;
+  }
+
+  #greeting {
+  font-size: 2rem;
+  }
+
+  #greeting h1{
+  font-size: 4rem;
+  }
+}
+
