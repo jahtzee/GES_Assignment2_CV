@@ -1,120 +1,99 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Jan Zimmer's CV</title>
+    <title>FCC portfolio page</title>
 
-  <link rel="stylesheet" href="css/main.css" />
-</head>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous"
+	/>
+  	<script src="js/scripts.js"></script>
+  </head>
 
-<body>
-
-  <main>
-    <div class="container">
-      <div class="row">
-        <div class="image-header">
-          <div class="image-container">
-            <div class="image">
-              <img src="./resources/avatar.png" alt="avatar">
-            </div>
-          </div>
-          <div class="headline">
-            <div class="name"><h1>Jan Zimmer</h1></div>
-            <div class="cv"><h2>Curriculum Vitae</h2></div>
-          </div>
+  <body>
+    
+    <nav id="navbar">
+      <ul id="nav-list">
+        <li><a href="#welcome-section" class="nav-link"><i class="fas fa-address-card"></i> About</a></li>
+        <li><a href="#cv-section" class="nav-link"><i class="fas fa-graduation-cap"></i> CV</a></li>
+        <li><a href="#projects" class="nav-link"><i class="fas fa-laptop-code"></i> Work</a></li>
+        <li><a href="#contact" class="nav-link"><i class="fas fa-mobile-alt"></i> Contact</a></li>
+      </ul>
+    </nav>
+    
+    <main>
+      <section id="welcome-section">
+        <div id="greeting">
+          <h1>Hello there.<br>I am Jahtzee.</h1>
+          <p>a web developer</p>
         </div>
-      </div>
-      <div class="row2">
-        <div class="cv-container">
-          <div class="col-left">
-            <div class="experience">
-              <h3>Experience</h3>
-              <div class="experience1">
-                <div class="greyed">
-                  <h4>Weather Factory</h4>
-                  <div class="hlink"><a href="https://weatherfactory.biz/">https://weatherfactory.biz/</a></div>
-                  <h5>Aug. 2020 - present</h5>
-                </div>
-                <div class="desc">Freelance translator and proofreader (English-German)</div>
-                <ul><li>Translation of press and community announcements, patch notes and social media marketing communication</li></ul>
-              </div>
-              <div class="experience2">
-                <div class="greyed">
-                  <h4>Aulenbacher GmbH</h4>
-                  <div class="hlink"><a href="https://aulenbacher.de/">https://aulenbacher.de/</a></div>
-                  <h5>Aug. 2019 - Feb. 2020</h5>
-                </div>
-                <div class="desc">IT specialist and systems integrator</div>
-                <ul>
-                  <li>General IT and server administration:<br>Dovecot, Linux Containers (Debian), web development (Apache HTTP, Shopware, PHP back-end and attached SQL databses</li>
-                  <li>Networking (Unifi Mesh, OpenVPN)</li>
-                </ul>
-              </div>
-            </div>
-            <div class="education">
-              <h3>Education</h3>
-              <div class="education1">
-                <div class="greyed">
-                  <h4>Dr. Gerhard Schmidt GmbH</h4>
-                  <div class="hlink"><a href="https://dasekg.de/">https://dasekg.de/</a></div>
-                  <h5>Jul. 2016 - Jun. 2019</h5>
-                </div>
-                <div class="desc">IT specialist apprenticeship</div>
-                <ul>
-                  <li>Customer service and technical support</li>
-                  <li>Hardware and maintenance (intranet infrastructure, medical devices, 3d-printer and other hardware)</li>
-                </ul>
-                <div class="grade">GPA: 4.0</div>
-              </div>
-              <div class="education2">
-                <div class="greyed">
-                  <h4>Helmholtz Gymnasium Zweibrücken</h4>
-                  <div class="hlink"><a href="https://www.helmholtz-zweibruecken.de/">https://www.helmholtz-zweibruecken.de/</a></div>
-                  <h5>2008 - 2016</h5>
-                </div>
-                <div class="desc">High school technical diploma</div>
-                <div class="grade"><br>GPA: 3.0</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-separator"></div>
-          <div class="col-right">
-            <div class="contact">
-              <h3>Contact</h3>
-              <ul>
-              	<li>66482 Zweibrücken, Germany</li>
-              	<li>jan[at]azzw.de</li>
-              	<li><a href="https://github.com/jahtzee">github.com/jahtzee</a></li>
-              	<li>+49 121337420</li>
-              </ul>
-            </div>
-            <div class="skills">
-              <h3>Skills</h3>
-              <ul>
-              	<li>Java, Ruby (Rails), PHP, JavaScript, AutoIT</li>
-              	<li>Netgear, Cisco, Ubiquiti (routers, access points etc.)</li>
-              	<li>Windows Server 2008+, Debian, CentOS, Ubuntu</li>
-              	<li>Virtualization (VMware, Oracle VirtualBox), Containerization (Linux Containers)</li>
-              </ul>
-            </div>
-            <div class="interests">
-              <h3>Interests</h3>
-              <ul>
-              	<li>Software and web development</li>
-              	<li>Archery</li>
-              	<li>English literature and linguistics</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
+      </section>
 
-  <script src="js/scripts.js"></script>
-  
-</body>
+      <section id="cv-section">
+      	<iframe src="cv.html" width="100%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+      </section>
+      
+      <section id="projects">
+        <h1>These are some of my projects:</h1>
+        <hr>
+        <div id="tile-flex-box">
+          <a href="https://codepen.io/jahtzee/full/jOEgBPg">
+            <div class="project-tile">
+              <img src="resources/project1.PNG" class="project-img">
+              <p><span class="highlight">&lt; </span>Tribute Page<span class="highlight"> &#47;&gt;</span></p>
+            </div>
+          </a>
+          <a href="https://codepen.io/jahtzee/full/mdyNmjV">
+            <div class="project-tile">
+              <img src="resources/project2.PNG" class="project-img">
+              <p><span class="highlight">&lt; </span>Survey Form<span class="highlight"> &#47;&gt;</span></p>
+            </div>
+          </a>
+          <a href="https://codepen.io/jahtzee/full/BaNBpEx">
+            <div class="project-tile">
+              <img src="resources/project3.PNG" class="project-img">
+              <p><span class="highlight">&lt; </span>Technical Documentation<span class="highlight"> &#47;&gt;</span></p>
+            </div>
+          </a>
+          <a href="https://codepen.io/jahtzee/full/eYmqjVw">
+            <div class="project-tile">
+             <img src="resources/project4.PNG" class="project-img">
+             <p><span class="highlight">&lt; </span>Landing Page<span class="highlight"> &#47;&gt;</span></p>
+            </div>
+          </a>
+        </div>
+      </section>
+      <section id="contact">
+        <div id="contact-headline-div">
+          <h1>Let's work together!</h1>
+          <p>Feel free to contact me through any of these channels.</p>
+        </div>
+          <ul id="contact-list">
+            <li>
+              <a id="profile-link" href="https://github.com/jahtzee" target="_blank" class="contact-details">
+              <i class="fab fa-github"></i> GitHub
+              </a> 
+            </li>
+            <li>          
+              <a href="mailto:doesnt@exist.com" class="contact-details">
+              <i class="fas fa-at"></i> E-mail me
+             </a>
+            </li>
+            <li>
+             <a href="tel:133-133-1313" class="contact-details">
+             <i class="fas fa-mobile-alt"></i> Call me
+             </a>
+            </li>
+          </ul>
+      </section>
+    </main>
+  </body>
 </html>
