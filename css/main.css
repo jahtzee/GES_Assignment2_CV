@@ -12,12 +12,12 @@ html {
   --color-gunmetal-grey: #334960;
   --color-lightblue: #7a99b8;
   --color-white: hsl(100, 0%, 95%);
-  --color-nav-border: hsl(211deg 24% 22%);
   --color-greenblue: rgb(34,124,116);
   --color-darkblue: #334960;
   --color-textgrey: rgb(54,54,54);
   --color-nav-border: hsl(212, 15%, 30%);
   --color-gradient: linear-gradient(var(--color-greenblue), var(--color-lightblue));
+  --color-orange: #ebb134;
   scroll-behavior: smooth;
 }
 
@@ -30,15 +30,18 @@ a {
   color: var(--color-white);
 }
 
+/* ### embedded documents styling ### */
 iframe {
   width: 100%;
-  overflow-y: hidden;
   border: none;
 }
 
+/* scrolling attribute for inline frames deprecated, so we hide any overflow here to prevent scrolling of iframes */
 .iframe-body {
   overflow: hidden;
 }
+
+/* ### navigation bar styling ###  */
 
 #navbar {
   position: fixed;
@@ -78,13 +81,14 @@ iframe {
     color: var(--color-lightblue);
 }
 
+/* ### welcome section styling ###  */
+
 #welcome-section {
   width: 100%;
   height: 100vH;
   display: flex;
   justify-content: center;
   align-items: center;
-  /*background-color: var(--color-kolibri);*/
   background: var(--color-gradient);
   margin-top: 80px;
   text-align: center;
@@ -102,6 +106,8 @@ iframe {
   font-size: 7rem;
   font-style: normal;
 }
+
+/* ### projects section styling ###  */
 
 #projects{
   background: var(--color-white);
@@ -149,6 +155,7 @@ iframe {
   transition: color 0.3s ease-out;
 }
 
+/* this broke */
 .project-tile:hover p .highlight {
   color: var(--color-orange);
 }
@@ -159,6 +166,8 @@ iframe {
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+/* ### contact section styling ###  */
 
 #contact-section iframe {
   margin-bottom: -4px;
@@ -192,12 +201,6 @@ iframe {
   list-style: none;
 }
 
-@media (max-width: 1000px){
-  #contact-list{
-    flex-direction: column;
-  }
-}
-
 .contact-details{
   text-shadow: 2px 2px 1px #1f1f1f;
   font-size: 2rem;
@@ -211,6 +214,14 @@ iframe {
 
 #contact-list li:hover{
   transform: translateY(8px);
+}
+
+/* ### media queries ### */
+
+@media (max-width: 1000px){
+  #contact-list{
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 1000px){
