@@ -4,6 +4,7 @@ body {
     color: #363636;
     background: #334960;
     padding-bottom: 4.5%;
+    overflow: hidden;
 }
 
 div {

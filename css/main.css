@@ -21,9 +21,23 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background: var(--color-white);
+}
+
 a {
   text-decoration: none;
   color: var(--color-white);
+}
+
+iframe {
+  width: 100%;
+  overflow-y: hidden;
+  border: none;
+}
+
+.iframe-body {
+  overflow: hidden;
 }
 
 #navbar {
