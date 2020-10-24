@@ -283,5 +283,9 @@ iframe {
 	#greeting h1{
 		font-size: 4rem;
 	}
+
+	#about p{
+		font-size: 1rem;
+	}
 }
 

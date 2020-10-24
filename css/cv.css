@@ -26,8 +26,8 @@ div {
 
 @media (min-width: 1200px) {
 	.container {
-       width: 1170px;
-   }
+     width: 1170px;
+ }
 }
 
 @media (min-width: 992px) {
@@ -149,4 +149,10 @@ h5 {
 
 .grade {
     font-weight: bold;
+}
+
+@media (min-width: 500px) {
+    body {
+        font-size: 1rem;
+    }
 }
