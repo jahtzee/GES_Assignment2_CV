@@ -107,6 +107,36 @@ iframe {
   font-style: normal;
 }
 
+/* ### about section styling ###  */
+#about {
+  color: var(--color-textgrey);
+  text-align: center;
+}
+
+#about h1{
+  font-size: 3rem;
+  margin-top: 8%;
+}
+
+#about h2{
+  margin: 10px auto 15px auto;
+  font-family: serif;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+#about hr{
+  width: 90%;
+  max-width: 700px;
+  margin: 10px auto 3%;
+  border: 2px solid;
+  color: var(--color-textgrey);
+}
+
+#about p{
+  margin: 0 8%;
+}
+
 /* ### projects section styling ###  */
 
 #projects{
