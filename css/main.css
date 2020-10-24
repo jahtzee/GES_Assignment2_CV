@@ -252,6 +252,10 @@ iframe {
 	padding-bottom: 20px;
 }
 
+#legal a{
+	text-decoration-line: underline;
+}
+
 /* ### media queries ### */
 
 @media (max-width: 1000px){
