@@ -151,7 +151,7 @@ h5 {
     font-weight: bold;
 }
 
-@media (min-width: 500px) {
+@media (max-width: 500px) {
     body {
         font-size: 1rem;
     }
