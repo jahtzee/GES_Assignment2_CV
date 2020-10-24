@@ -207,12 +207,11 @@ iframe {
 #contact {
 	text-align: center;
 	background: var(--color-gunmetal-grey2);
-	padding-bottom: 5%;
 }
 
 #contact-headline-div{
 	color: var(--color-white);
-	margin-bottom: 6%;
+	margin-bottom: 3%;
 }
 
 #contact-headline-div p{
@@ -236,7 +235,6 @@ iframe {
 	text-shadow: 2px 2px 1px #1f1f1f;
 	font-size: 2rem;
 	padding: 20px;
-	
 }
 
 #contact-list li{
@@ -245,6 +243,13 @@ iframe {
 
 #contact-list li:hover{
 	transform: translateY(8px);
+}
+
+#legal{
+	color: var(--color-white);
+	font-size: 0.8rem;
+	margin-top: 3.5%;
+	padding-bottom: 20px;
 }
 
 /* ### media queries ### */
