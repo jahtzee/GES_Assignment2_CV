@@ -134,7 +134,7 @@ iframe {
 }
 
 #about p{
-  margin: 0 8%;
+  margin: auto 8% 6% auto;
 }
 
 /* ### projects section styling ###  */
