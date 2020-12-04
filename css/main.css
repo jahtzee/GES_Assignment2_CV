@@ -57,11 +57,14 @@ iframe {
 	border-color: var(--color-nav-border);
 }
 
-#logo_img {
-    height: 50px;
-    align-self: center;
-    margin-right: auto;
-    margin-left: 4%;
+#logo_lnk {
+	align-self: center;
+	margin-right: auto;
+	margin-left: 4%;
+}
+
+#logo_lnk img {
+	height: 50px;
 }
 
 #nav-list {
