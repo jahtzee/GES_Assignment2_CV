@@ -57,6 +57,13 @@ iframe {
 	border-color: var(--color-nav-border);
 }
 
+#logo_img {
+    height: 50px;
+    align-self: center;
+    margin-right: auto;
+    margin-left: 4%;
+}
+
 #nav-list {
 	display: flex;
 	align-items: center;
